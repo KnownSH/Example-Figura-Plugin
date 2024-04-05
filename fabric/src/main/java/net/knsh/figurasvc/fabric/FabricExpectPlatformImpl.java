@@ -1,11 +1,11 @@
-package org.figuramc.exampleplugin.fabric;
+package net.knsh.figurasvc.fabric;
 
-import org.figuramc.exampleplugin.ExampleExpectPlatform;
+import net.knsh.figurasvc.ExampleExpectPlatform;
 import net.fabricmc.loader.api.FabricLoader;
 
 import java.nio.file.Path;
 
-public class ExampleExpectPlatformImpl {
+public class FabricExpectPlatformImpl {
     /**
      * This is our actual method to {@link ExampleExpectPlatform#getConfigDirectory()}.
      */

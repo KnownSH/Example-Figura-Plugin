@@ -1,4 +1,4 @@
-package org.figuramc.exampleplugin;
+package net.knsh.figurasvc;
 
 import dev.architectury.injectables.annotations.ExpectPlatform;
 

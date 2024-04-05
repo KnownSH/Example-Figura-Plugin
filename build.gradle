@@ -28,6 +28,14 @@ subprojects {
             url = uri("https://maven.figuramc.org/snapshots")
         }
         maven { url 'https://jitpack.io' }
+        maven { url = 'https://maven.maxhenkel.de/repository/public' }
+        maven {
+            name = "Modrinth"
+            url = "https://api.modrinth.com/maven"
+            content {
+                includeGroup "maven.modrinth"
+            }
+        }
     }
 
     dependencies {
@@ -52,6 +60,7 @@ allprojects {
     figura_version = rootProject.figura_version
 
     repositories {
+
         // Add repositories to retrieve artifacts from in here.
         // You should only use this when depending on other mods because
         // Loom adds the essential maven repositories to download Minecraft and libraries from automatically.

@@ -1,7 +1,7 @@
-package org.figuramc.exampleplugin.fabric;
+package net.knsh.figurasvc.fabric;
 
 import net.fabricmc.api.ModInitializer;
-import org.figuramc.exampleplugin.ExamplePlugin;
+import net.knsh.figurasvc.FiguraSVC;
 
 /**
  * A mod class is not technically needed for Fabric to load the Plugin, but it's still nice to have.
@@ -9,6 +9,6 @@ import org.figuramc.exampleplugin.ExamplePlugin;
 public class ExamplePluginFabric implements ModInitializer {
     @Override
     public void onInitialize() {
-        ExamplePlugin.init();
+        //FiguraSVC.init();
     }
 }

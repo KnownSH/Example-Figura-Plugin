@@ -16,22 +16,16 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "org.figuramc.exampleplugin.fabric.ExamplePluginFabric"
+      "net.knsh.figurasvc.fabric.ExamplePluginFabric"
     ],
     "figura_api": [
-      "org.figuramc.exampleplugin.ExamplePlugin"
+      "net.knsh.figurasvc.FiguraSVC"
     ],
-    "figura_permissions": [
-      "org.figuramc.exampleplugin.ExamplePermissionsPlugin"
+    "figura_event": [
+      "net.knsh.figurasvc.VoiceChatEvent"
     ],
-    "figura_screen": [
-      "org.figuramc.exampleplugin.ExampleScreensPlugin"
-    ],
-    "figura_vanilla_part": [
-      "org.figuramc.exampleplugin.ExampleVanillaPartPlugin"
-    ],
-    "figura_example": [
-      "org.figuramc.exampleplugin.ExampleEventPlugin"
+    "voicechat": [
+      "net.knsh.figurasvc.SVCPlugin"
     ]
   },
   "depends": {

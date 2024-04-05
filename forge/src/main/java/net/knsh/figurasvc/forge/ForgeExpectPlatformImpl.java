@@ -1,11 +1,11 @@
-package org.figuramc.exampleplugin.forge;
+package net.knsh.figurasvc.forge;
 
-import org.figuramc.exampleplugin.ExampleExpectPlatform;
+import net.knsh.figurasvc.ExampleExpectPlatform;
 import net.minecraftforge.fml.loading.FMLPaths;
 
 import java.nio.file.Path;
 
-public class ExampleExpectPlatformImpl {
+public class ForgeExpectPlatformImpl {
     /**
      * This is our actual method to {@link ExampleExpectPlatform#getConfigDirectory()}.
      */
