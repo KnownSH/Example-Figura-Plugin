@@ -1,3 +1,5 @@
-events["svc.microphone"] = function ()
-    animations.model.talk:play()
+if type(events["svc.microphone"]) == "Event" then
+    events["svc.microphone"] = function ()
+        print("help")
+    end
 end
