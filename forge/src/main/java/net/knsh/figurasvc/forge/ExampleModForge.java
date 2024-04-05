@@ -9,6 +9,5 @@ import net.minecraftforge.fml.common.Mod;
 @Mod(FiguraSVC.PLUGIN_ID)
 public class ExampleModForge {
     public ExampleModForge() {
-        FiguraSVC.init();
     }
 }

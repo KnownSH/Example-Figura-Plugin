@@ -9,10 +9,10 @@
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/KnownSH/FiguraSVC"
   },
-  "license": "Insert License Here",
-  "icon": "assets/examplemod/icon.png",
+  "license": "LGPL-2.1",
+  "icon": "assets/figurasvc/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
